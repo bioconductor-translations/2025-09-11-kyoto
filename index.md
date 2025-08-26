@@ -358,8 +358,10 @@ of code below the Schedule `<h2>` header below with
 
 <p>ワークショップの教材は、
 <a href = "https://bioconductor-translations.github.io/bioc-rnaseq-ja/">Bioconductorを用いたRNA-seq解析</a>
-、から見ることができます(翻訳中。翻訳更新状況は
-<a href="https://github.com/bioconductor-translations/bioc-rnaseq-ja/tree/l10n_main">こちら</a>から確認いただけます。)：</p>
+、から見ることができます。
+(翻訳中。翻訳更新状況は
+<a href="https://github.com/bioconductor-translations/bioc-rnaseq-ja/tree/l10n_main">こちら</a>から確認いただけます。)
+</p>
 
 <hr/>
 
