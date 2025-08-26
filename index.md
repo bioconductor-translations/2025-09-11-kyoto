@@ -3,20 +3,20 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "大阪大学 微生物病研究所 融合型生命科学総合研究棟 (主催: Bioconductor Carpentries 日本語ワークショップ 世話人一同, 共催: 日本バイオインフォマティクス学会[JSBi])"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "大阪大学 微生物病研究所 融合型生命科学総合研究棟 1階 谷口記念講堂"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+venue: "京都三大学教養教育研究・推進機構 稲盛記念会館 講義室101 (主催: Bioconductor Carpentries 日本語ワークショップ 世話人一同, 共催: 日本バイオインフォマティクス学会[JSBi])"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "京都市左京区下鴨半木町１-５"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "ja"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "ja"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
-latitude: "34.824306"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "135.5238724"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "2025年8月5日（火）と6日（水）"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+latitude: "35.04824614523155"        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "135.76603751761527"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+humandate: "2025年9月11日（木）と12日（金）"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "10:00 - 17:00 (JST)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2025-8-5      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2025-8-6        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2025-9-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2025-9-12        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["西田 孝三"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["後藤 直久"]    # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["knishida@riken.jp", "ngoto@gen-info.osaka-u.ac.jp"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://docs.google.com/document/d/1Hgj6dUMddy1MUTdmWhJ__Xb9mEsQicSRaxQcKt6BG58/edit?usp=sharing # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+helper: ["福島 敦史"]    # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["knishida@riken.jp", "afukushima@kpu.ac.jp"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes: https://docs.google.com/document/d/1AqoUqAGFtdhcfQdZcW4TOs_F_3LMVa0Wtfb33NUYha0/edit?usp=sharing # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -109,7 +109,7 @@ REGISTRATION
 
 <p>
   <strong>登録:</strong>
-  <a href="https://carpentries.connpass.com/event/360997/">Connpass</a>から登録して下さい。
+  <a href="https://connpass.com/event/365823/">Connpass</a>から登録して下さい。
 </p>
 
 
@@ -178,7 +178,7 @@ Modify the block below if there are any special requirements.
     参加者は、管理者権限を持つMac/Linux/Windows OSを搭載した
     コンピュータ（タブレットやChromebookなどではなく）にアクセスできる必要があります。
   {% endif %}
-  いくつかの特定のソフトウェアパッケージ（ <a href="#setup">下部の「セットアップ」以降の Bash, Git, Text Editor, R</a>）をインストールしてください。
+  いくつかの特定のソフトウェアパッケージ（ <a href="#setup">下部の「セットアップ」以降の R</a>）をインストールしてください。
 </p>
 
 {% comment %}
@@ -400,7 +400,6 @@ please preview your site before committing, and make sure to run
 
 <p>なお、<strong>インストールの説明は現時点、英語のみとなっています</strong>（翻訳に貢献したい方は是非インストラクターまでご連絡お願いします（<a href='mailto:knishida@riken.jp'>knishida@riken.jp</a>）。</p>
 
-<p> <strong>2025年7月23日追記</strong> BashシェルとGitのセットアップ項目は本ワークショップには必須ではないため削除しました。<strong>既にインストールされた方へ: </strong>BashやGitは有用なので残しておいて頂いて問題ありません。アンインストールの必要はありません。</p>
 
 {% comment %}
 For online workshops, the section below provides:
