@@ -356,13 +356,8 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="materials">教材</h2>
 
-<p>ワークショップの教材はこちらから見ることができます：<a href = "https://bioconductor-translations.github.io/bioc-intro-ja/">R と Bioconductor によるデータ分析入門</a>、<a href = "https://bioconductor-translations.github.io/bioc-project-ja/">Bioconductor プロジェクト</a>。</p>
+<p>ワークショップの教材はこちらから見ることができます(翻訳中。翻訳更新状況は[こちら](https://github.com/bioconductor-translations/bioc-rnaseq-ja/tree/l10n_main)から確認いただけます。)：<a href = "https://bioconductor-translations.github.io/bioc-rnaseq-ja/">Bioconductorを用いたRNA-seq解析</a></p>
 
-<hr/>
-
-<h2 id="slides">スライド</h2>
-
-<p>ワークショップのスライドは<a href = "https://bioconductor-translations.github.io/2025-08-05-osaka-slides">こちら</a>から見ることができます。</p>
 
 <hr/>
 
