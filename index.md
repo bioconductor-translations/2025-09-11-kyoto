@@ -352,6 +352,8 @@ of code below the Schedule `<h2>` header below with
 
 <p>以上のスケージュルは目安で、実際の内容とは異なることがあります。</p>
 
+<p>お昼休憩等の際の飲食店マップは <a href = "https://stroly.com/viewer/1504760065">こちら</a> をご参照ください。</p>
+
 <hr/>
 
 <h2 id="materials">教材</h2>
